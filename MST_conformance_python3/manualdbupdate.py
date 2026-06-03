@@ -1,0 +1,493 @@
+##===========================================================================##
+# This script parses R&S CONTEST TE LOGS and uploads data to database
+# @Author : Mohan Boda
+##===========================================================================##
+
+import datetime
+import json
+import logging
+import os
+import re
+import socket
+import sys
+import time
+import traceback
+import urllib.request
+import xml.etree.ElementTree as ET
+
+from bs4 import BeautifulSoup
+from common_utils import *
+from database import *
+from settings import OFFSET
+
+
+def get_execution_mode_from_testsuite_tsp(testsuite_tsp_file_path):
+	if not os.path.exists(testsuite_tsp_file_path):
+		logging.warning("testsuite.tsp not found, defaulting to manual mode: " + testsuite_tsp_file_path)
+		return "m"
+	tree = ET.parse(testsuite_tsp_file_path)
+	root = tree.getroot()
+	px_auto_node = root.find('./px_TestAutomation')
+	px_auto_value=px_auto_node.get('value')
+	if px_auto_value.upper().strip()=="TRUE":
+		return "a"
+	else:
+		return "m"
+
+def get_execution_mode(Texthtml):
+	index8=str(Texthtml).index("DUT Control")
+	index9=str(Texthtml).index(".",index8)
+	Mode=str(Texthtml)[index8+11:index9]
+	Mode=Mode.strip()
+	if("Manual" in Mode):
+		Execmode='m'
+	elif("Automation" in Mode):
+		Execmode='a'
+		#continue
+	else:
+		Execmode=''
+	return Execmode
+
+def gettestcaseid(Texthtml):
+	index1=str(Texthtml).index("Test Case:")
+	index2=str(Texthtml).index("Description")
+	testcaseid=str(Texthtml)[index1+10:index2]
+	testcaseid=testcaseid.strip()
+	return testcaseid
+
+def get_carrier_from_te_build(TE_Build) :
+	ind1 = TE_Build.rindex("_")
+	ind2 = TE_Build.rindex("-")
+	# print ind1,ind2
+	Carrier = TE_Build[ind1 + 1:ind2]
+	return Carrier
+
+def getcarrier(Texthtml):
+	try:
+		#index3=str(Texthtml).index("Module:")
+		#index4=str(Texthtml).index("Start TestCase:",index3)
+		#Carrier= str(Texthtml)[index3+7:index4]
+		#print Carrier
+		#Carindex=Carrier.find('_')
+		#Carrier=Carrier[:Carindex]
+		regex=r'Module:\s*(.+?)\_'
+		m=re.search(regex,Texthtml,re.I)
+		Carrier=m.groups()[0]
+		Carrier=Carrier.strip()
+		return Carrier
+	except:
+		logging.error("exception ",exc_info=1)
+		try:
+			index10=str(Texthtml).index("Application")
+			index11=str(Texthtml).index("Test Case",index10)
+			TE_Build=str(Texthtml)[index10+12:index11]
+			TE_Build=TE_Build.strip()
+			#print TE_Build
+			Carrier=get_carrier_from_te_build(TE_Build)
+			return Carrier
+			
+
+		except:
+			logging.error("exception ",exc_info=1)
+			try:
+				
+				index12=str(Texthtml).index("Test Spec.")
+				index13=str(Texthtml).index("\n",index12+1)
+				index14=str(Texthtml).index("\n",index13+2)
+				testcaseversion=str(Texthtml)[index13+1:index14]
+				testcaseversion=testcaseversion.strip()
+				logging.info("testcaseversion:"+str(testcaseversion))
+				if "AT&T" in testcaseversion.upper() or "ATT" in testcaseversion.upper():
+					Carrier="AT&T"
+					return Carrier
+
+
+			except:
+				logging.error("exception ",exc_info=1)
+	return "NA"
+
+def adjust_end_time_and_duration(starttime,endtime,Execmode,Setuptimeinsec):
+	d1 = datetime.datetime.strptime(str(starttime), "%Y-%m-%d:%H:%M:%S")
+	d2 = datetime.datetime.strptime(str(endtime), "%Y-%m-%d:%H:%M:%S")
+	duration = str(d2 - d1)
+	return starttime, endtime, duration
+
+def getstarttimeandduration(Texthtml,endtime,Execmode,root):
+	try:
+		#index15=str(Texthtml).index("Test case start:")
+		#index16=str(Texthtml).index(":",index15)
+		#index17=str(Texthtml).index("\n",index16+3)
+		#print index16,index17
+		#index18=str(Texthtml).index("-",index16)
+		#starttime=str(Texthtml)[index18-4:index18+15]
+		#starttime=starttime.strip()
+		#starttime=starttime.replace(" ",":")
+		index19=str(root).rindex("_")
+		starttime=str(root)[index19+1:]
+		starttime=starttime.strip()
+		starttime=starttime.replace("T",":")
+		starttime=starttime[:13]+":"+starttime[13:15]+":"+starttime[15:]
+		logging.info("starttime :"+str(starttime))
+		starttime, endtime, duration=adjust_end_time_and_duration(starttime, endtime, Execmode, Setuptimeinsec)
+		return starttime, endtime, duration
+	except:
+		logging.error("exception ",exc_info=1)
+		timeinsec=getduration(Texthtml,Execmode,root)
+		starttime=getstarttime(endtime,timeinsec)
+		starttime, endtime, duration = adjust_end_time_and_duration(starttime, endtime, Execmode, Setuptimeinsec)
+		return starttime,endtime,duration
+
+def getduration(Texthtml,Execmode,root):
+	timeinsec = "150"
+	try:
+
+		index5=str(Texthtml).index("Finished after")
+		index6=str(Texthtml).index("Stopping",index5)
+		timeinsec=str(Texthtml)[index5+14:index6]
+		timeinsec=timeinsec.strip()
+		indext=timeinsec.find('.')
+		timeinsec=int(timeinsec[:indext])
+	except:
+		logging.error("exception ",exc_info=1)
+		try:
+			filepath=os.path.join(root, "output.log")
+			with open(filepath,'rb') as fp:
+				lines=fp.readlines()
+				for i in range(1, len(lines)):
+					if "Duration" in lines[-i]:
+						index1=lines[-i].index(":")
+						tduration=lines[-i][index1+1:]
+						tduration=tduration.strip('\r\n')
+						tduration=tduration.strip()
+						duration=tduration[:8]
+						#print "duration:",duration
+						timeinsec=get_sec(duration)
+						#print "duration in sec:",timeinsec
+
+		except:
+			logging.error("exception ",exc_info=1)
+	return timeinsec
+
+def getresult(Texthtml):
+	try:
+		index7=str(Texthtml).rindex("VERDICT:")
+		result=str(Texthtml)[index7+8:-2]
+		result=result.strip()
+		return result
+	except:
+		return "INCONCLUSIVE"
+
+def get_final_verdict_reason(soup):
+	for p in soup.find_all('p', class_='result'):
+		if 'Final Verdict' in p.get_text():
+			full_text = p.get_text(strip=True)
+			reason_match = re.search(r'\((.+)\)', full_text)
+			return reason_match.group(1) if reason_match else ''
+	return ''
+
+def getstarttime(endtime,timeinsec):
+	e1=datetime.datetime.strptime(str(endtime), "%Y-%m-%d:%H:%M:%S")
+	starttime=e1-datetime.timedelta(0,int(timeinsec))
+	starttime=str(datetime.datetime.strftime(starttime,"%Y-%m-%d:%H:%M:%S"))
+	return starttime
+
+def get_te_build(Texthtml,root):
+	try:
+		index10=str(Texthtml).index("Application")
+		index11=str(Texthtml).index("Test Case",index10)
+		TE_Build=str(Texthtml)[index10+12:index11]
+		TE_Build=TE_Build.strip()
+	except:
+		TE_Build=""
+	regex=r'\-(KAF\d+?)\-'
+	m=re.search(regex,Texthtml,re.I)
+	if m:
+		TE_Build=m.groups()[0]+","+TE_Build
+	else:
+		kaf_text=kaf_version_from_constest_db_set(root)
+		if kaf_text:
+			TE_Build = kaf_text + "," + TE_Build
+	logging.info(TE_Build)
+	return TE_Build
+
+def kaf_version_from_constest_db_set(root):
+
+	kaf_text=""
+	try:
+		filepath = os.path.join(root, "ContestDbDataSet.xml")
+		tree = ET.parse(filepath)
+		root_node = tree.getroot()
+		kaf_node = root_node.find("./testcase/ProductLicenseInformation")
+		if kaf_node is not None:
+			regex = r'(KAF.*)'
+			m = re.search(regex, kaf_node.text, re.I)
+			if m:
+				kaf_text = m.groups()[0]
+				logging.info("KAF TEXT FROM DBDATASET.XML:" + str(kaf_node.text))
+	except:
+		logging.exception("error",exec_info=1)
+	return  kaf_text
+
+def format_time_string_extracted_from_json(time_str):
+	time_str = str(time_str).split(".")[0]
+	time_str = time_str.replace("T", ":")
+	return time_str
+
+def rectrav(root):
+	global setup
+	global Count
+	global db
+	global cursor
+	global Setuptimeinsec
+	global ydate
+	global enddate
+
+	logging.info("In directory: " + str(root))
+	# report files
+	json_file_path = os.path.join(root, 'report.json')
+	htm_file_path  = os.path.join(root,'OnlineReport.htm')
+	# check if report.json is present
+	if os.path.exists(json_file_path) :
+		file_path=json_file_path
+		cdate = get_file_modified_date(file_path)
+		if ((cdate <= ydate and cdate >= enddate)):
+			logging.info("---------------------------------------------------------------------------------------")
+			logging.info("---------------------------------------------------------------------------------------")
+			logging.info("Found .json file" + str(file_path))
+			try:
+				try:
+					db.ping()
+				except:
+					db = get_dbvm()
+				db.autocommit(True)
+				cursor = db.cursor()
+				#load the json report file
+				report_json=json.load(open(file_path))
+				# Operation Mode
+				Execmode = get_execution_mode_from_testsuite_tsp(os.path.join(root,'testsuite.tsp'))
+				logging.info("Execmode:" + Execmode)
+				# Test case name
+				testcaseid = str(report_json['header']['TestCaseNumber']).strip()
+				logging.info("testcaseid:" + str(testcaseid))
+				# Carrier name extraction
+				TestcaseVersion=str(report_json['header']['TestcaseVersion']).strip()
+				Carrier=get_carrier_from_te_build(TestcaseVersion)
+				logging.info("Carrier:" + str(Carrier))
+				# start and end time
+				starttime = format_time_string_extracted_from_json(report_json['starttime'])
+				endtime   = format_time_string_extracted_from_json(report_json['endtime'])
+				# duration
+				starttime, endtime, duration = adjust_end_time_and_duration(starttime,endtime,Execmode,Setuptimeinsec)
+				logging.info("start time :" + str(starttime))
+				logging.info("endtime :" + str(endtime))
+				# result
+				result = str(report_json['verdict']['Value']).strip()
+				logging.info("result:" + str(result))
+				# index
+				# uebuild
+				uebuild = 0
+				# Execution validation
+				valid = getvalidation(result)
+				# reviewed
+				reviewed = valid
+				# Carrier name dictionary
+				Carrier = getcarrierfinal(Carrier, testcaseid)
+				logging.info("Carrier final:" + str(Carrier))
+				# formating the result
+				result = getresultfinal(result)
+				# TE BUILD ID
+				kaf_text=kaf_version_from_constest_db_set(root)
+				if kaf_text:
+					TE_Build = kaf_text+","+TestcaseVersion
+				else:
+					TE_Build=TestcaseVersion
+				if TE_Build:
+					TE_Build="RAS "+TE_Build.strip()
+				logging.info("TE_Build:"+str(TE_Build))
+				testcaseid = gettestcaseidfinal(Carrier, testcaseid)
+
+				reason = ''
+				if result != 'PASS' and os.path.exists(htm_file_path):
+					try:
+						reason = get_final_verdict_reason(BeautifulSoup(open(htm_file_path), "html.parser"))
+					except:
+						logging.error("exception reading reason from htm", exc_info=1)
+				logging.info("reason:" + str(reason))
+				data = [testcaseid, Carrier, setup, result, starttime, endtime, duration, uebuild, valid, Execmode, TE_Build,
+						reviewed,htm_file_path,reason]
+				##			0,		1,		2,		3		4,		5		6,		7,		8,		9	  ,10 ,11  ,12          ,13
+				logging.info(data)
+				#print(file_path)
+				#print(data, TE_Build)
+
+				if Execmode == 'm':
+					process_manual_record(data, db, Count, cursor)
+				else:
+					process_automation_record(data, db, Count, cursor)
+
+
+			except:
+				logging.info("Failed in try block ," + file_path)
+				logging.error("exception ", exc_info=1)
+	elif os.path.exists(htm_file_path):
+		file_path=htm_file_path
+		cdate = get_file_modified_date(file_path)
+		if ((cdate <= ydate and cdate >= enddate)):
+			logging.info("---------------------------------------------------------------------------------------")
+			logging.info("---------------------------------------------------------------------------------------")
+			logging.info("Found .htm"+str(file_path))
+			try :
+				try:
+					db.ping()
+				except:
+					db=get_dbvm()
+				db.autocommit(True)
+				cursor=db.cursor()
+				soup = BeautifulSoup(open(file_path),"html.parser")
+				Texthtml=soup.get_text()
+				Texthtml=Texthtml.encode("utf-8")
+				#Operation Mode
+				Execmode=get_execution_mode(Texthtml)
+				logging.info("Execmode:"+ Execmode)
+				if Execmode=='':
+					raise  Exception("Execution mode is empty")
+					#continue
+				#Test case name
+				testcaseid=gettestcaseid(Texthtml)
+				logging.info("testcaseid:"+str(testcaseid))
+				#Carrier name extraction
+				Carrier=getcarrier(Texthtml)
+				logging.info("Carrier:"+str(Carrier))
+				
+				#endtime
+				endtime=get_file_modified_date_time(file_path)
+				logging.info("endtime :"+str(endtime))
+				#start time :
+				starttime,endtime,duration=getstarttimeandduration(Texthtml,endtime,Execmode,root)
+				#Duration extraction
+				#timeinsec,duration=getduration(Texthtml,Execmode,root)
+
+				#starttime
+				#starttime=getstarttime(endtime,timeinsec)
+				logging.info("start time :"+str(starttime))
+				#print(duration)
+				#verdict
+				result=getresult(Texthtml)
+				logging.info("result:"+str(result))
+				#index
+				#uebuild
+				uebuild=0
+				#Execution validation
+				valid=getvalidation(result)
+				#reviewed
+				reviewed=valid
+				#Carrier name dictionary
+				Carrier=getcarrierfinal(Carrier,testcaseid)
+				logging.info("Carrier final:"+str( Carrier))
+				#formating the result
+				result=getresultfinal(result)
+				#TE BUILD ID
+				TE_Build=get_te_build(Texthtml,root)
+				if TE_Build:
+					TE_Build="RAS "+TE_Build.strip()
+				logging.info("TE_Build:"+str(TE_Build))
+				testcaseid=gettestcaseidfinal(Carrier,testcaseid)
+				reason = get_final_verdict_reason(soup) if result != 'PASS' else ''
+				logging.info("reason:"+str(reason))
+				data = [testcaseid,Carrier,setup,result,starttime,endtime,duration,uebuild,valid,Execmode,TE_Build,reviewed,file_path,reason]
+				##			0,		1,		2,		3		4,		5		6,		7,		8,		9	  ,10 ,11  ,12       ,13
+				logging.info(data)
+				#print(file_path)
+				#print(data,TE_Build)
+
+				if Execmode=='m':
+					process_manual_record(data,db,Count,cursor)
+				else:
+					process_automation_record(data,db,Count,cursor)
+					
+
+			except:
+				logging.info("Failed in try block ,"+file_path)
+				logging.error("exception ",exc_info=1)
+	else:
+		# traverse all the files and directories inside root
+		for f in os.listdir(root):
+			# if f is a directory recursively traverse that directory
+			if os.path.isdir(os.path.join(root, f)):
+				try:
+					rectrav(os.path.join(root, f))
+				except:
+					logging.error("exception ", exc_info=1)
+
+def main():
+
+	global setup
+	global Count
+	global db
+	global cursor
+	global Setuptimeinsec
+	global ydate
+	global enddate
+
+	ROOT_DIRS = [
+		r"\\<server1>\c\Contest\ResultData", 
+		r"\\<server2>\c\Contest\ResultData"]
+	ydate=datetime.date.today()-datetime.timedelta(0)
+	ydate=ydate.strftime("%Y-%m-%d")
+	logging.info("yesterday date :"+ydate)
+	enddate=datetime.date.today()-datetime.timedelta(1)
+	enddate=enddate.strftime("%Y-%m-%d")
+	logging.info("end date:"+enddate)
+	Setuptimeinsec=int(OFFSET["manualSetuptimeinsec"])
+	logging.info("OFFSET TIME:"+str(Setuptimeinsec))
+	db=get_dbvm()
+	db.autocommit(True)
+	cursor=db.cursor()
+	Count=[0,0,0]
+	for root in ROOT_DIRS:
+		if not os.path.exists(root):
+			logging.warning("Path not reachable, skipping: " + root)
+			continue
+		rectrav(root)
+	
+# main call
+if __name__=="__main__":
+	try:
+		# global declaration
+		taskstarttime=get_current_time()
+		filename="RAS_contest_manual_update_log"+taskstarttime.replace(":",'_')+".txt"
+		start_logging(filename)
+		logging.info("Started execution at :"+taskstarttime)
+		version="3.1.0"
+		hostname = socket.gethostname()
+		setup = hostname
+		Setuptimeinsec=0
+		db=""
+		cursor=""
+		Count=[0,0,0]
+		ydate=""
+		enddate=""
+		taskname="R&S Contest Manual Update Script"
+		logging.info("version:"+str(version))
+		logging.info("setupname:"+str(hostname))
+		main()
+	except:
+		logging.error("exception ",exc_info=1)
+	finally:
+		try:
+			db.ping()
+		except:
+			db=get_dbvm()
+		db.autocommit(True)
+		cursor=db.cursor()
+		insert_task_execution_status(setup,taskname,taskstarttime,version,Count,cursor)
+		db.commit()
+		db.close()
+		
+	
+
+
+
+
+
+

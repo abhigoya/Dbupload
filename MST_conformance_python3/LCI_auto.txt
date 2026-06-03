@@ -1,0 +1,400 @@
+[2026-05-23 00:00:54 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:00:54 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:00:54 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:00:54 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.8+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+22-May-2026T23-55-28_tid_59.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:00:54 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:02:15 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:02:15 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:02:15 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:02:15 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.9+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+22-May-2026T23-45-25_tid_60.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:02:15 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:30:24 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:30:24 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:30:24 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:30:24 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_458181_8.2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+22-May-2026T23-31-18.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:30:24 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:31:45 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:31:45 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:31:45 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:31:45 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_458991_uplink_pdcp_agg_1_on_n71+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+22-May-2026T23-14-07.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:31:45 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:33:05 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:33:05 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:33:05 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:33:05 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.3+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-12-03.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:33:05 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:34:26 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:34:26 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:34:26 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:34:26 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.6+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-07-02.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:34:26 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:35:46 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:35:46 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:35:46 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:35:46 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.7+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-01-21.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:35:46 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:37:06 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:37:06 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:37:06 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:37:06 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.8+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+22-May-2026T23-55-28.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:37:06 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:38:27 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:38:27 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:38:27 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:38:27 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_459013_1.9+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+22-May-2026T23-45-25.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:38:27 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:39:47 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:39:47 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:39:47 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:39:47 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1001+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-28-41_tid_68.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:39:47 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 00:59:50 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 00:59:50 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 00:59:50 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 00:59:50 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1002+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-33-30_tid_69.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 00:59:50 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:01:11 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:01:11 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:01:11 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:01:11 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1003+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-40-17_tid_70.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:01:11 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:02:31 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:02:31 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:02:31 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:02:31 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1004+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-45-10_tid_71.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:02:31 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:03:52 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:03:52 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:03:52 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:03:52 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1005+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-52-00_tid_72.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:03:52 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:05:12 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:05:12 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:05:12 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:05:12 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1006+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-57-20_tid_73.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:05:12 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:30:57 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:30:57 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:30:57 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:30:57 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1001+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-28-41.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:30:57 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:32:18 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:32:18 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:32:18 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:32:18 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1002+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-33-30.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:32:18 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:33:39 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:33:39 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:33:39 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:33:39 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1003+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-40-17.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:33:39 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:35:00 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:35:00 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:35:00 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:35:00 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1004+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-45-10.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:35:00 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:36:20 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:36:20 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:36:20 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:36:20 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1007+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-04-06_tid_79.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:36:20 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:37:40 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:37:40 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:37:40 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:37:40 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1008+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-09-50_tid_80.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:37:40 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:39:01 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:39:01 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:39:01 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:39:01 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1009+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-16-53_tid_81.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:39:01 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:40:21 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:40:21 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:40:21 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:40:21 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1010+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-23-06_tid_82.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:40:21 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 01:41:42 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 01:41:42 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 01:41:42 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 01:41:42 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1011+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-27-15_tid_83.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 01:41:42 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:01:53 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:01:53 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:01:53 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:01:53 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1005+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-52-00.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:01:53 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:03:14 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:03:14 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:03:14 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:03:14 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1006+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T00-57-20.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:03:14 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:04:34 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:04:34 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:04:34 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:04:34 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1007+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-04-06.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:04:34 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:05:55 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:05:55 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:05:55 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:05:55 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1008+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-09-50.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:05:55 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:07:15 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:07:15 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:07:15 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:07:15 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1009+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-16-53.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:07:15 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:08:35 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:08:35 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:08:35 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:08:35 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1012+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-31-20_tid_89.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:08:35 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:09:56 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:09:56 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:09:56 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:09:56 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1013+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-35-31_tid_90.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:09:56 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:11:16 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:11:16 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:11:16 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:11:16 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1014+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-39-37_tid_91.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:11:16 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 02:30:43 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 02:30:43 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 02:30:43 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 02:30:43 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.106+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T02-23-34_tid_92.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 02:30:43 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:01:59 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:01:59 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:01:59 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:01:59 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1010+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-23-06.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:01:59 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:03:19 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:03:19 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:03:19 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:03:19 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1011+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-27-15.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:03:19 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:04:40 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:04:40 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:04:40 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:04:40 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1012+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-31-20.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:04:40 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:06:00 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:06:00 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:06:00 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:06:00 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1013+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-35-31.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:06:00 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:07:20 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:07:20 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:07:20 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:07:20 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.1014+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T01-39-37.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:07:20 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:08:41 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:08:41 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:08:41 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:08:41 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.105_1+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T02-43-47.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:08:41 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:10:01 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:10:01 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:10:01 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:10:01 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.105_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T02-33-42.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:10:01 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 03:31:32 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 03:31:32 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 03:31:32 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 03:31:32 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.106+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T02-23-34.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 03:31:32 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 05:31:05 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 05:31:05 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 05:31:05 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 05:31:05 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.012+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-27-48_tid_102.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 05:31:05 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 05:32:26 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 05:32:26 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 05:32:26 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 05:32:26 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.016+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-09-07_tid_103.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 05:32:26 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 05:33:46 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 05:33:46 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 05:33:46 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 05:33:46 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.017+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-18-05_tid_104.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 05:33:46 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 05:35:06 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 05:35:06 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 05:35:06 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 05:35:06 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.018+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-13-36_tid_105.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 05:35:06 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:01:10 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:01:10 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:01:10 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:01:10 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.003_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-52-41_tid_106.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:01:10 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:02:31 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:02:31 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:02:31 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:02:31 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.008+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-48-18_tid_107.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:02:31 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:03:51 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:03:51 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:03:51 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:03:51 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.011+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-32-44_tid_108.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:03:51 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:32:25 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:32:25 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:32:25 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:32:25 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.003_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-52-41.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:32:25 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:33:45 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:33:45 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:33:45 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:33:45 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.008+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-48-18.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:33:45 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:35:06 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:35:06 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:35:06 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:35:06 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.011+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-32-44.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:35:06 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:36:26 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:36:26 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:36:26 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:36:26 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.012+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-27-48.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:36:26 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:37:48 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:37:48 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:37:48 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:37:48 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_8+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-27-39_tid_113.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:37:48 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:39:08 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:39:08 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:39:08 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:39:08 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.016+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-09-07.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:39:08 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:40:28 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:40:28 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:40:28 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:40:28 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.017+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-18-05.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:40:28 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:41:49 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:41:49 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:41:49 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:41:49 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.018+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T05-13-36.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:41:49 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:43:09 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:43:09 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:43:09 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:43:09 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.019+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-10-14_tid_117.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:43:09 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:44:29 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:44:29 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:44:29 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:44:29 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.021_1+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-14-23_tid_118.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:44:29 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 06:45:50 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 06:45:50 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 06:45:50 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 06:45:50 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.021_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-17-56_tid_119.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 06:45:50 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:01:21 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:01:21 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:01:21 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:01:21 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.010+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-59-02_tid_120.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:01:21 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:02:41 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:02:41 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:02:41 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:02:41 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_1+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-54-41_tid_121.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:02:41 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:04:01 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:04:01 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:04:01 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:04:01 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-45-33_tid_122.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:04:01 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:05:22 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:05:22 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:05:22 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:05:22 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_3+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-49-50_tid_123.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:05:22 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:06:42 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:06:42 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:06:42 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:06:42 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_5+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-41-15_tid_124.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:06:42 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:08:02 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:08:02 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:08:02 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:08:02 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_6+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-36-49_tid_125.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:08:02 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:09:23 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:09:23 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:09:23 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:09:23 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_7+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-32-29_tid_126.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:09:23 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:32:13 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:32:13 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:32:13 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:32:13 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.010+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-59-02.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:32:13 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:33:33 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:33:33 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:33:33 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:33:33 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_1+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-54-41.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:33:33 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:34:54 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:34:54 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:34:54 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:34:54 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-45-33.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:34:54 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:36:14 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:36:14 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:36:14 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:36:14 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_3+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-49-50.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:36:14 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:37:34 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:37:34 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:37:34 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:37:34 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_5+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-41-15.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:37:35 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:38:55 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:38:55 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:38:55 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:38:55 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_6+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-36-49.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:38:55 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:40:15 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:40:15 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:40:15 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:40:15 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_7+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-32-29.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:40:15 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:41:35 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:41:35 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:41:35 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:41:35 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.014_8+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-27-39.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:41:35 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:42:56 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:42:56 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:42:56 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:42:56 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.019+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-10-14.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:42:56 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:44:16 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:44:16 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:44:16 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:44:16 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.021_1+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-14-23.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:44:16 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:45:36 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:45:36 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:45:36 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:45:36 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.021_2+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T06-17-56.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:45:36 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:46:56 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:46:56 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:46:56 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:46:56 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.310+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T07-27-07_tid_138.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:46:56 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 07:48:17 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 07:48:17 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 07:48:17 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 07:48:17 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.312+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T07-09-28.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 07:48:17 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
+[2026-05-23 08:01:38 DEBUG root "logger_utils"  32] --------------------------------------------------------------------------------
+[2026-05-23 08:01:38 DEBUG base.utils.logger_utils "logger_utils"  40] Adding a Stream Handler
+[2026-05-23 08:01:38 DEBUG base.utils.logger_utils "logger_utils"  46] Added
+[2026-05-23 08:01:38 INFO generate_lci_config_copy.py "generate_lci_config_copy"  49] Namespace(ue_log='TMO+5G_Protocol+5G_500.308+VERDICT_FAIL+MPSS.KI.1.0-02556.5-HAWI_GEN_TEST-1+KS_27+23-May-2026T07-44-57_tid_140.hdf', temp_path='C:\\LAF\\temp\\working')
+[2026-05-23 08:01:38 INFO generate_lci_config_copy.py "generate_lci_config_copy"  103] Config file generated: <_io.TextIOWrapper name='.\\config_files\\LCI_config.ini' mode='w' encoding='cp1252'>
